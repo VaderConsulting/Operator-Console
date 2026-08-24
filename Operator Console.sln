@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Operator Console", "Operator Console\Operator Console.vbproj", "{A2C72F70-ED27-4A2E-B718-FE6CCB01A6DA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Utility", "..\Framework\Utility\Utility.vbproj", "{904C3087-4331-40EF-A1B6-46B5730F348C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Security Config", "Security Config\Security Config.vbproj", "{6BD308C4-C5B8-413F-BFFD-2DBC4AEC2CA2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Password Master", "Backdoor\Password Master.vbproj", "{714B41EF-EB0E-4A0E-A889-96C7B255A4B8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EndpointTest", "EndpointTest\EndpointTest.vbproj", "{64D547DA-AD91-4513-8805-BB9C61B97F85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E701FDB-3807-4024-80A8-D07364970442} = {8E701FDB-3807-4024-80A8-D07364970442}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WCFHostTest", "WCFHostTest\WCFHostTest.vbproj", "{8E701FDB-3807-4024-80A8-D07364970442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C72F70-ED27-4A2E-B718-FE6CCB01A6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C72F70-ED27-4A2E-B718-FE6CCB01A6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C72F70-ED27-4A2E-B718-FE6CCB01A6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C72F70-ED27-4A2E-B718-FE6CCB01A6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904C3087-4331-40EF-A1B6-46B5730F348C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904C3087-4331-40EF-A1B6-46B5730F348C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904C3087-4331-40EF-A1B6-46B5730F348C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904C3087-4331-40EF-A1B6-46B5730F348C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD308C4-C5B8-413F-BFFD-2DBC4AEC2CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD308C4-C5B8-413F-BFFD-2DBC4AEC2CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD308C4-C5B8-413F-BFFD-2DBC4AEC2CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD308C4-C5B8-413F-BFFD-2DBC4AEC2CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714B41EF-EB0E-4A0E-A889-96C7B255A4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714B41EF-EB0E-4A0E-A889-96C7B255A4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714B41EF-EB0E-4A0E-A889-96C7B255A4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714B41EF-EB0E-4A0E-A889-96C7B255A4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D547DA-AD91-4513-8805-BB9C61B97F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D547DA-AD91-4513-8805-BB9C61B97F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D547DA-AD91-4513-8805-BB9C61B97F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D547DA-AD91-4513-8805-BB9C61B97F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E701FDB-3807-4024-80A8-D07364970442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E701FDB-3807-4024-80A8-D07364970442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E701FDB-3807-4024-80A8-D07364970442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E701FDB-3807-4024-80A8-D07364970442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

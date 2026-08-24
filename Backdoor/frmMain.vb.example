@@ -1,0 +1,38 @@
+﻿Public Class frmMain
+
+
+
+    Private Sub btnGeneratePassword_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGeneratePassword.Click
+        If radOperatorConsole.Checked Then
+            txtUsername.Text = "Stratatel"
+            txtPassword.Text = gFunctions.XMLEncrypt("Stratatel " & Date.Today, "REDACTED")
+        End If
+
+        If radConfigServer.Checked Then
+            txtUsername.Text = "Stratatel"
+            txtPassword.Text = gFunctions.XMLEncrypt("Stratatel " & Date.Today, "REDACTED")
+        End If
+
+        If radListManager.Checked Then
+            txtUsername.Text = "Stratatel"
+            txtPassword.Text = gFunctions.XMLEncrypt("Stratatel " & Date.Today, "REDACTED")
+        End If
+
+    End Sub
+
+    Private Sub btnCheckPassword_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCheckPassword.Click
+        Dim frmCheck As New frmCheckPassword
+
+        frmCheck.Show()
+    End Sub
+
+    Private Sub frmMain_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnCreate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCreate.Click
+        Dim CreateForm As New frmCreatePassword
+
+        CreateForm.ShowDialog()
+    End Sub
+End Class

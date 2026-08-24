@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1533684d-f014-4a55-b1fe-4495ed31c860" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.SortedList" Category="Dictionary" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://CADSConfig/Config/CADS4.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CADS4.xsd" MetadataType="Schema" ID="d55786b6-0989-4ae7-9531-4bb09beeb402" SourceId="1" SourceUrl="http://virtualdev1/Config/CADS4.svc?xsd=xsd1" />
+    <MetadataFile FileName="CADS4.wsdl" MetadataType="Wsdl" ID="f12629c0-09d0-49ef-9423-81231bdbd7b8" SourceId="1" SourceUrl="http://virtualdev1/Config/CADS4.svc?wsdl" />
+    <MetadataFile FileName="CADS41.xsd" MetadataType="Schema" ID="366c86fc-3df7-4149-884c-4fab68400bdc" SourceId="1" SourceUrl="http://virtualdev1/Config/CADS4.svc?xsd=xsd3" />
+    <MetadataFile FileName="CADS42.xsd" MetadataType="Schema" ID="0853ab51-703e-43cd-8a5d-9a24a1e04d17" SourceId="1" SourceUrl="http://virtualdev1/Config/CADS4.svc?xsd=xsd2" />
+    <MetadataFile FileName="CADS43.xsd" MetadataType="Schema" ID="8ff43975-f8d4-4320-9623-616143f8c9d2" SourceId="1" SourceUrl="http://virtualdev1/Config/CADS4.svc?xsd=xsd0" />
+    <MetadataFile FileName="CADS4.disco" MetadataType="Disco" ID="661d1e96-3fa1-4bfc-9add-c856fbf34d62" SourceId="1" SourceUrl="http://virtualdev1/Config/CADS4.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
