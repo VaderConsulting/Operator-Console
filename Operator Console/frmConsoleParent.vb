@@ -132,10 +132,10 @@ Public Class frmConsoleParent
     '        'End If
 
     '        'Username = LoginForm.InteractiveUserUsername     ' "Operator"
-    '        'UserPassword = LoginForm.InteractiveUserPassword ' "REDACTED"
+    '        'UserPassword = LoginForm.InteractiveUserPassword ' "OperatorPassword"
 
-    '        Username = "REDACTED"
-    '        UserPassword = "REDACTED"
+    '        Username = "Operator"
+    '        UserPassword = "OperatorPassword"
 
     '        gFunctions.InteractiveUserUsername = Username
     '        gFunctions.InteractiveUserPassword = UserPassword
@@ -173,8 +173,8 @@ Public Class frmConsoleParent
 
     '    If UserSecurityLevel <> Constants.DEFAULTSTRINGVALUE Then ' Logon is ok
     '        ' Backdoor...
-    '        If Username = "REDACTED" Then
-    '            gFunctions.InteractiveUserUsername = "REDACTED"
+    '        If Username = "Stratatel" Then
+    '            gFunctions.InteractiveUserUsername = "SysAdmin"
     '        End If
 
     '        'gSettings = gConfigServer.MySettings(gFunctions.InteractiveUserUsername, gFunctions.CurrentADSitename)
@@ -263,7 +263,7 @@ Public Class frmConsoleParent
         ' Perform the actual logon.  If logon is successful, copy the [user].config to my PC
         '
         Dim LogonResult As String = ""
-        'LogonResult = gFunctions.DoLogon("Operator", "REDACTED", False)
+        'LogonResult = gFunctions.DoLogon("Operator", "operatorpassword", False)
         LogonResult = gFunctions.DoLogon()
         If LogonResult = Constants.DEFAULTSTRINGVALUE Then
             MsgBox("Your logon attempt has failed.")
