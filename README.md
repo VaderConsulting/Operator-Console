@@ -2,6 +2,8 @@
 
 VS 2008 VB.NET WinForms (.NET 3.5) working copy of the Stratatel CADS Operator Console: OperatorConsole is an MDI WinExe that calls gFunctions.DoLogon then opens frmUserSearch against LDAP roots from external.config and a CADS config WCF endpoint. Password Master (Backdoor) XMLEncrypts a daily Stratatel password with gFunctions (hardcoded key gitignored; see frmMain.vb.example); WCFHostTest self-hosts IService EchoWithGet/EchoWithPost/GetImage on http://localhost:8000/. Open `Operator Console.sln` in Visual Studio. This is a historical working copy from Dave Robinson / VaderConsulting.
 
+Working copy from my Historical Dev folder.
+
 **Source last updated:** 2008-12-02  
 **Language:** VB.NET  
 **Target:** v3.5  
